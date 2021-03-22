@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title></title>
+</head>
+<body>
+    <script>
+        var firstNum = prompt("Enter your first number: ");
+        var secondNum = prompt("Enter your second number: ");
+
+        var multiplied = firstNum * secondNum;
+        var divided = firstNum / secondNum;
+        var modulo = firstNum % secondNum;
+
+        var response = prompt("What operation do you want to do? Multiply(mult), Divide(div), or Modulo(mod)?  ");
+
+        if (response === "mult") {
+            console.log(multiplied);
+        }
+        else if (response === "div") {
+            console.log(divided);
+        }
+        else if (response === "mod") {
+            console.log(modulo);
+        }
+        else {
+            console.log("*** iNvAlId OpErAtIoN ***");
+        }
+    </script>
+ 
+</body>
+</html>
