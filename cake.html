@@ -10,10 +10,10 @@
 <body>
     <script>
         var response = prompt("Do you want cake? yes or no ");
-        if (response === "yes") {
+        if (response === "yes" || response === "YES" || response === "y") {
             console.log("Have some cake");
         }
-        else if (response === "no") {
+        else if (response === "no" || response === "NO" || response === "n") {
             console.log("No cake for you");
         }
         else {
